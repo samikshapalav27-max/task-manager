@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styling tweaks */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0f172a;
+  margin: 0;
+  padding: 0;
+}
+
+/* Scrollbar design */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #22d3ee;
+  border-radius: 10px;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
